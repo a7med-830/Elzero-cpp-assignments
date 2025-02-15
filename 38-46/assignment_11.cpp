@@ -1,7 +1,21 @@
 #include <iostream>
+#include <array>
+#include <algorithm>
 using namespace std;
 
 int main() {
-    // Your code here
+    // Do Not Edit The Next 3 Lines
+    int index = 1;
+    array<int, 3> oldNums = {10, 20, 30};
+    array<int, 3> newNums;
+
+    // Write Your Code Here
+    reverse_copy(oldNums.begin(), oldNums.end(), newNums.begin());
+
+    // Do Not Edit The Next 3 Lines
+    cout << newNums[0] << "\n"; // 30
+    cout << newNums[1] << "\n"; // 20
+    cout << newNums[2] << "\n"; // 10
+
     return 0;
 }
