@@ -23,7 +23,8 @@ for i in range(num_of_files):
             f.write("#include <iostream>\n")
             f.write("using namespace std;\n\n")
             f.write("int main() {\n")
-            f.write("    // Your code here\n")
+            f.write("\n")
+            f.write("\n")
             f.write("    return 0;\n")
             f.write("}\n")
             
